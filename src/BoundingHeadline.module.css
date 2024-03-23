@@ -1,0 +1,52 @@
+.root {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 44px 32px 48px;
+  outline: solid 4px #000;
+  background-color: #ffc700;
+}
+.corner {
+  width: 22px;
+  height: 22px;
+  outline: solid 4px #000;
+  outline-offset: -2px;
+  background-color: #fff;
+}
+.corner2 {
+  width: 22px;
+  height: 22px;
+  outline: solid 4px #000;
+  outline-offset: -2px;
+  background-color: #fff;
+}
+.corner3 {
+  width: 22px;
+  height: 22px;
+  outline: solid 4px #000;
+  outline-offset: -2px;
+  background-color: #fff;
+}
+.corner4 {
+  width: 22px;
+  height: 22px;
+  outline: solid 4px #000;
+  outline-offset: -2px;
+  background-color: #fff;
+}
+.figmaBasics {
+  color: #000;
+  font-size: 132px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Whyte Inktrap, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.03em;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
