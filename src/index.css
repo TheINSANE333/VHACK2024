@@ -26,6 +26,12 @@
 	min-width: 260px;
 }
 
+#sidebar.expand a.sidebar-link span {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
 #toggle-btn {
 	background-color: transparent;
 	cursor: pointer;

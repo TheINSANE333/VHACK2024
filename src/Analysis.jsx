@@ -5,7 +5,7 @@ import gov3 from "./assets/gov3.png";
 function Analysis() {
 	return (
 		<>
-			<div className="container-fluid text-center">
+			<div style={{animation: "fadeInAnimation ease 2s", animationIterationCount: "1",animationFillMode: "forwards"}} className="container-fluid text-center">
 				<div className="row">
 					<h1 style={{ textAlign: "left", padding: "0.25rem 0 0 0.5rem" }}>
 						Analysis

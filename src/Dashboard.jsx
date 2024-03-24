@@ -16,9 +16,9 @@ function Dashboard() {
 
 	return (
 		<>
-			<div className="container-fluid text-center">
-				<div className="row">
-					<h1 style={{ textAlign: "left", padding: "0.25rem 0 0 0.5rem" }}>
+			<div className="container-fluid text-center" style={{overflow:"auto",animation: "fadeInAnimation ease 2s", animationIterationCount: "1",animationFillMode: "forwards"}}>
+				<div className="row" style={{overflow:"auto"}}>
+					<h1 style={{ textAlign: "left", padding: "0.25rem 0 0 0.5rem"}}>
 						Dashboard
 					</h1>
 
@@ -86,7 +86,13 @@ function Dashboard() {
 								style={{ height: "12.25rem", overflow: "auto" }}
 							>
 								<p className="border border-secondary border-3 rounded-pill py-1 mt-1 content-text">
-									Lorem ipsum is placeholder text commonly used in the graphic.
+									20/05/2024 Tranfer RM520.00 to Boyfren .
+								</p>
+								<p className="border border-secondary border-3 rounded-pill py-1 mt-1 content-text">
+									14/02/2024 Receive RM13.14 from Wife.
+								</p>
+								<p className="border border-secondary border-3 rounded-pill py-1 mt-1 content-text">
+									10/08/2024 Receive RM5.20 from 备胎.
 								</p>
 							</div>
 						</div>
@@ -100,11 +106,15 @@ function Dashboard() {
 								style={{ height: "12.25rem", overflow: "auto" }}
 							>
 								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-									Lorem ipsum is wowoahah text commonly used in gugabuga.
+									23/04/2024 Receive 52.00 from 舔狗.
 								</p>
 
 								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-									Lorem ipsum is wowoahah text commonly used in gugabuga.
+									01/03/2024 Tranfer 100.00 to scammer Sdn. Bhd.
+								</p>
+
+								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
+									01/01/2024 Tranfer 520.00 from Girlfren.
 								</p>
 							</div>
 						</div>
@@ -142,19 +152,19 @@ function Dashboard() {
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									2. Scammer1 Sdn. Bhd.
+									2. T0T0 Sdn. Bhd.
 								</div>
 								<div
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									3. Scammer2 Sdn. Bhd.
+									3. GenTin Sdn. Bhd.
 								</div>
 								<div
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									4. Scammer3 Sdn. Bhd.
+									4. MaCao Sdn. Bhd.
 								</div>
 							</div>
 						</div>
@@ -174,25 +184,25 @@ function Dashboard() {
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									1. Someone's name
+									1. Boyfren
 								</div>
 								<div
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									2. Someone's name
+									2. Girlfren
 								</div>
 								<div
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									3. Someone's name
+									3. 舔狗
 								</div>
 								<div
 									style={{ padding: "0.4rem 0", margin: "0.25rem 0" }}
 									className="border border-2 bg-secondary rounded-pill"
 								>
-									4. Someone's name
+									4. 备胎
 								</div>
 							</div>
 						</div>
@@ -256,13 +266,13 @@ function Dashboard() {
 							style={{ height: "12.25rem", overflow: "auto" }}
 						>
 							<p className="border border-secondary border-3 rounded-pill mt-1  content-text">
-								Lorem ipsum is placeholder text commonly used in the graphic.
+								GenTin Sdn. Bhd scam over RM 10000++ for charity.
 							</p>
 							<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-								Lorem ipsum is placeholder text commonly used in the graphic.
+								Macao Sdn Bhd buy use RM0.01 to buy one unit share in cina.
 							</p>
 							<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-								Lorem ipsum is placeholder text commonly used in the graphic.
+								MaHaDih Sdn Bhd use company fund to buy coffin.
 							</p>
 						</div>
 					</div>
@@ -278,13 +288,16 @@ function Dashboard() {
 								style={{ height: "12.25rem", overflow: "auto" }}
 							>
 								<p className="border border-secondary border-3 rounded-pill mt-1  content-text">
-									Lorem ipsum is placeholder text commonly used in the graphic.
+								Oil prices down on Gaza ceasefire talks.
 								</p>
 								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-									Lorem ipsum is placeholder text commonly used in the graphic.
+								2MDB starts operations on 02/02/2024.
 								</p>
 								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
-									Lorem ipsum is placeholder text commonly used in the graphic.
+								Jeffey Chia planing to buy Subang.
+								</p>
+								<p className="border border-secondary border-3 rounded-pill mt-1 content-text">
+								Jho law auctions his ferry start from 1 million USD.
 								</p>
 							</div>
 						</div>

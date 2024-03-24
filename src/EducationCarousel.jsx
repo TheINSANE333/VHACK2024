@@ -17,7 +17,7 @@ const EducationCarousel = () => {
     />
   ))
   return (
-    <div>
+    <div style={{animation: "fadeInAnimation ease 2s", animationIterationCount: "1",animationFillMode: "forwards"}}>
     <h1 className = "big-title">Education</h1>
     <div style={{ borderRadius: "20px", border: '10px solid purple', paddingBottom:'2vh', marginTop: '2vh', marginLeft: '5vw', paddingLeft: '2vw'}}>
       <h1>Subscribe to Finance Education Contents!</h1>

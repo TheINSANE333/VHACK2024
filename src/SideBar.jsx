@@ -31,7 +31,7 @@ function SideBar({onLinkClick}) {
 				<ul className="sidebar-nav">
 					<li className="sidebar-item">
 						<header className="sidebar-link" href="#">
-							<a href="#" style={{ textDecoration: "none", color: "white" }}>
+							<a href="#" style={{textDecoration: "none", color: "white" }}>
 								<div className="d-flex align-item-center">
 									<img
 										style={{
@@ -42,7 +42,7 @@ function SideBar({onLinkClick}) {
 										alt="logo"
 									/>
 									{isExpanded && (
-										<p style={{ padding: "0.65rem 0rem 0rem 0rem" }}>
+										<p style={{animation: "fadeInAnimation ease 2s", animationIterationCount: "1",animationFillMode: "forwards", padding: "0.65rem 0rem 0rem 0rem" }}>
 											<span style={{ fontWeight: "bold" }}>FinDex</span>
 											<br />
 											<span style={{ fontSize: "0.95rem" }}>
